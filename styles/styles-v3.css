@@ -1,0 +1,167 @@
+.bg-lightgray {
+  background-color: #E2E1E8;
+}
+
+.bg-infocus {
+  background-color: #342F83;
+}
+
+.text-lightgray {
+  color: #E2E1E8;
+}
+
+body {
+  color: #2D2D34;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  color: #2D2D34;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 0.5em;
+}
+
+a {
+  text-decoration: none !important;
+  color: #342F83;
+}
+
+a:hover {
+  color: #6e68c9;
+}
+
+.nav-item__custom {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.brand {
+  margin: 40px 0 60px 0;
+  margin-left: 1rem;
+}
+
+@media (min-width: 992px) {
+  .brand {
+    margin-left: 0;
+    margin: 90px 0 120px 0;
+  }
+}
+
+.banner {
+  margin-bottom: 60px;
+  width: 100%;
+  background: url(../images/infocus-background.jpg) center;
+  background-size: cover;
+  padding: 60px 0;
+  color: white;
+  z-index: 1000;
+}
+
+@media (min-width: 992px) {
+  .banner {
+    padding: 120px 0;
+  }
+}
+
+.banner-text {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .banner-text {
+    width: 50%;
+  }
+}
+
+.banner-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-family: 'Lora', serif;
+}
+
+@media (min-width: 992px) {
+  .banner-title {
+    margin-bottom: 60px;
+    font-size: 3.5rem;
+  }
+}
+
+.miembro-description {
+  height: 5.7em;
+  overflow: hidden;
+}
+
+.miembro-description__open {
+  height: auto;
+}
+
+.carousel-item img {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .carousel-item img {
+    height: 550px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .carousel-item img {
+    height: 100vh;
+  }
+}
+
+.navbar-custom {
+  z-index: 2;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .navbar-custom {
+    height: 120px;
+  }
+}
+
+#navbar-slide-down {
+  top: -80px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 4000;
+  width: 100%;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: 5px auto #E2E1E8;
+}
+
+.servicios h3 {
+  color: #342F83;
+}
+
+.footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer ul a {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0 10px;
+}
+
+.footer ul a:hover {
+  color: white;
+}
+/*# sourceMappingURL=styles-v3.css.map */

@@ -1,0 +1,143 @@
+$lightgray: #E2E1E8;
+$gray: #80808E;
+$infocus: #342F83;
+$black: #2D2D34;
+
+// helpers
+.bg-lightgray {
+  background-color: $lightgray;
+}
+.bg-infocus {
+  background-color: $infocus;
+}
+.text-lightgray {
+  color: $lightgray;
+}
+
+// general
+body {
+  color: $black;  
+  font-family: 'Roboto', sans-serif;  
+}
+h2 {
+  color: $black;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1em 
+}
+h3 {
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 0.5em;
+}
+a {
+  text-decoration: none !important;    
+  color: $infocus;
+  &:hover {
+    color: lighten($infocus, 25%)
+  }
+}
+.nav-item__custom {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.brand {
+  margin: 40px 0 60px 0;
+  margin-left: 1rem;
+  @media (min-width: 992px) {
+    margin-left: 0;
+    margin: 90px 0 120px 0;
+  }
+}
+.banner { 
+  margin-bottom: 60px;   
+  width: 100%;    
+  background: url(../images/infocus-background.jpg) center;
+  background-size: cover;
+  padding: 60px 0; 
+  color: white; 
+  z-index: 1000; 
+  @media (min-width: 992px) {
+    padding: 120px 0;
+  }
+  &-text {
+    width: 100%;
+    @media (min-width: 992px) {
+      width: 50%;      
+    }
+  }
+  &-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-family: 'Lora', serif;
+    @media (min-width: 992px) {
+      margin-bottom: 60px;         
+      font-size: 3.5rem;
+    }
+  }  
+}
+.miembro-description {
+  height: 5.7em;
+  overflow: hidden;
+}
+.miembro-description__open {
+  height: auto;
+}
+
+// V3
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  @media (min-width: 768px) {
+    height: 550px;
+  }
+  @media (min-width: 1024px) {
+    height: 100vh;
+  }
+}
+
+.navbar-custom {
+  z-index: 2;
+  width: 100%;
+    @media (min-width: 1024px) {
+      height: 120px;    
+    }
+}
+
+#navbar-slide-down {
+  top: -80px;
+  transition: 0.5s;  
+  z-index: 4000;
+  width: 100%;
+}
+
+.navbar-toggler {
+  border: none;
+  &:focus {
+    outline: 5px auto $lightgray;
+    
+  }
+}
+
+.servicios h3 {
+  color: $infocus;    
+}
+
+.footer {
+  ul {
+    padding-left: 0;
+    list-style: none;
+    a{
+      color: rgba(white, 0.8);
+      padding: 0 10px;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+
+
+
